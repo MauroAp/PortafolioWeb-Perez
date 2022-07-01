@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+
+#logo-ap{
+    width: 100px;
+}
+.redes{
+    margin-right: 0.5em;
+
+}
+
+.btn{
+    border-width: medium;
+    margin-right: 13px;
+
+
+}
+@media(max-width: 575px){ 
+.container{
+    flex-direction: column;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
