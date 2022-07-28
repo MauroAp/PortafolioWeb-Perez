@@ -4,7 +4,9 @@
             <img src="../../../assets/APLogo.png" id="logo-ap">
         </div>
         <div class="redes">
-            <button type="button" class="btn btn-outline-success">Ingreso</button>
+            <button *ngIf="!isLogged" type="button" class="btn btn-outline-success" (click)="login()" >Ingreso</button>
+            <button  *ngIf="!isLogged" type="button" class="btn btn-outline-success" (click)="onLogin()" >Cerrar Sesion</button>
+
 
         </div>
 
