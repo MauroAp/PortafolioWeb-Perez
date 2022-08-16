@@ -24,7 +24,7 @@ public class SExperiencia {
         
     }
     
-    public Optional<Experiencia> getone(int id){
+    public Optional<Experiencia> getOne(int id){
         return rExperiencia.findById(id);
         
     }
