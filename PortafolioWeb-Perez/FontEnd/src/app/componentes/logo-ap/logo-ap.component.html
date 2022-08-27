@@ -2,14 +2,27 @@
     <div class="container">
         <div class="logo">
             <img src="../../../assets/APLogo.png" id="logo-ap">
+
+      
+            
+            
         </div>
         <div class="redes">
-            <button *ngIf="!isLogged" type="button" class="btn btn-outline-success" (click)="login()" >Ingreso</button>
-            <button  *ngIf="!isLogged" type="button" class="btn btn-outline-success" (click)="onLogin()" >Cerrar Sesion</button>
+            <button type="button" class="btn btn-outline-success" (click)="login()" >Ingreso</button>
+            <button   type="button" class="btn btn-outline-success" (click)="onLogOut()" >Cerrar Sesion</button>
 
 
         </div>
 
+    </div>
+    <div id="nav-links">
+        <div class="navigation">
+          <li class="nav-item"><a href="#home"><i class="bi bi-house-door fs-4"></i>Inicio</a></li>
+          <li class="nav-item"><a href="#about"><i class="bi bi-person fs-4"></i>Sobre Mí</a></li>
+          <li class="nav-item"><a href="#skills"><i class="bi bi-diagram-3 fs-4"></i>Habilidades</a></li>
+          <li class="nav-item"><a href="#projects"><i class="bi bi-code fs-4"></i>Proyectos</a></li>
+         
+        </div>
     </div>
 </div>
 

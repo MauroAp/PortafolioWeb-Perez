@@ -29,3 +29,10 @@
     align-items: center;
 }
 }
+
+#nav-links{
+    display: flex;
+    
+    align-items: center;
+
+}

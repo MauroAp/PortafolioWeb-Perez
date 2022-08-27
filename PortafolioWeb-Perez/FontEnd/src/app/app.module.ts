@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { LogoApComponent } from './componentes/logo-ap/logo-ap.component';
 import { BannerComponent } from './componentes/banner/banner.component';
-import { FotoComponent } from './componentes/foto/foto.component';
+import { FotoComponent } from './componentes/foto/descripcion.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -23,6 +23,13 @@ import { NewExperienciaComponent } from './componentes/experiencia/new-experienc
 import { EditExperienciaComponent } from './componentes/experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './componentes/educacion/neweducacion.component';
 import { EditeducacionComponent } from './componentes/educacion/editeducacion.component';
+import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
+import { NewdescripcionComponent } from './componentes/foto/newdescripcion.component';
+import { EditdescripcionComponent } from './componentes/foto/editdescripcion.component';
+import { NewproyectoComponent } from './componentes/proyecto/newproyecto.component';
+import { EditproyectoComponent } from './componentes/proyecto/editproyecto.component';
+
+
 
 
 
@@ -45,6 +52,11 @@ import { EditeducacionComponent } from './componentes/educacion/editeducacion.co
     EditExperienciaComponent,
     NeweducacionComponent,
     EditeducacionComponent,
+    AcercaDeComponent,
+    NewdescripcionComponent,
+    EditdescripcionComponent,
+    NewproyectoComponent,
+    EditproyectoComponent,
     
   ],
   imports: [
@@ -53,7 +65,9 @@ import { EditeducacionComponent } from './componentes/educacion/editeducacion.co
     FormsModule,
     BrowserAnimationsModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
+    
+    
 
   ],
   providers: [
@@ -61,5 +75,6 @@ import { EditeducacionComponent } from './componentes/educacion/editeducacion.co
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
 
